@@ -1,0 +1,119 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Modules - COMPROG</title>
+        <style>
+            .body-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 80vh;
+                margin: 0;
+                padding: 0;
+                background-color: #ffeed5;
+            }
+
+            .h-title-container {
+                font-size: 2.5rem;
+                font-weight: 700;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            .h-desc-container {
+                font-size: 1rem;
+                font-weight: 300;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333;
+                margin-top: 1%;
+                padding: 0;
+            }
+
+            .form-container #username, .form-container #password, .form-container #btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 1rem;
+                padding-top: 2%;
+                border-radius: 5px;
+            }
+
+            .forgotp-container {
+                font-size: 0.8rem;
+                font-weight: 300;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #2600ff;
+                margin: 0;
+                padding-top: 5%;
+                text-align: left;
+                text-decoration: underline;
+            }
+
+            .sect-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .form-container #username, .form-container #password {
+                width: 100%;
+                height: 2rem;
+                margin-top: 1rem;
+                padding: 0.5rem;
+                border: 1px solid #333;
+                border-radius: 5px;
+            }
+
+            #btn-submit {
+                width: 100%;
+                height: 2rem;
+                margin-top: 1rem;
+                padding: 0.5rem;
+                border: 1px solid #333;
+                border-radius: 5px;
+                background-color: #333;
+                color: #fff;
+                font-size: 1rem;
+                font-weight: 300;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor: pointer;
+            }
+
+            #message {
+                font-size: 1rem;
+                font-weight: 300;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: #ff0000;
+                margin-top: 1rem;
+                padding: 0;
+            }
+        </style>
+    </head>
+
+    <body class="body-container">
+        
+        <div class="jsmodules-container">
+            <h1 class="h-title-container">Product Management System</h1>
+            <h6 class="h-desc-container">made your life easy to PMS.</h6>
+            <p id="text-container"></p>
+            
+            <section class="sect-container">
+                <form id="form-id">
+                    <input type="text" name="Username" id="username" placeholder="Username">
+                    <input type="password" name="Password" id="password" placeholder="Password"> <br>
+                    <button type="submit" id="btn-submit">Login</button>
+
+                    <p id="message"></p>
+                </form>
+            </section>
+        </div>
+
+        <script type="module" src="./main.js"></script>
+    </body>
+    </html>
