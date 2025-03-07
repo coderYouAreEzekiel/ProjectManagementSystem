@@ -1,6 +1,6 @@
 # Project Management System
 
-`Project Management System` is a school-based project using HTML5, CSS3, JavaScript (Back-end library, JS Modules). This project serves as the last activity in my school-year in Senior High School, it includes back-end library where you must create your own modules to function your own website, Me and my partner developed this project in just 3-Days. I includes some features in this web project:
+`Project Management System` is a school-based project using HTML5, CSS3, JavaScript (Back-end library, JS Modules). This project serves as the last activity in my school-year in Senior High School, it includes back-end library where we must create your own modules to function your own website, Me and my partner developed this project in just 3-Days. I includes some features in this web project:
 
  ## FEATURES:
  `Login features` - I added this feature for dynamic and feels more similar to other `Project Manager Apps`. <br>
