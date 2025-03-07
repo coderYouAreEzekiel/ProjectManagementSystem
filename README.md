@@ -9,4 +9,4 @@
  `Purchase feature` - By purchasing, the item will remove in the storage.
 
 > ## CAUTION:
-> ## This project only serves as the achievement we gained throughout the learning journey, You can "FORK" this reposity to modify or change the code.
+> ## This project only serves as an achievement we gained throughout the learning journey, You can "FORK" this reposity to modify or change the code.
